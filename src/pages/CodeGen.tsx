@@ -12,8 +12,8 @@ const CodeGen = () => {
         <div className="flex-1 overflow-y-auto bg-gray-100">
             <Topbar heading={'Code Gen'} />
             <div className="p-4">
-                <div className="flex justify-between items-center mb-4">
-                    <div className="flex justify-end gap-4">
+                <div className="flex justify-end mb-4">
+                    <div className="flex gap-4">
                         <button className="border px-4 py-1 rounded-full border-blue-500 text-blue-500 hover:bg-blue-100">
                             Create JIRA Ticket
                         </button>

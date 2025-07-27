@@ -24,12 +24,12 @@ export default function TechnicalAnalysis() {
     const [tab, setTab] = useState("transformations");
     const [data] = useState(() => [...defaultData]);
     const [columns] = useState(() => [...defaultColumns]);
-    const [columnFilters, setColumnFilters] = useState([]);
+    // const [columnFilters, setColumnFilters] = useState([]);
 
     const table = useReactTable({
         data,
         columns,
-        state: { columnFilters },
+        // state: { columnFilters },
         // onColumnFiltersChange: setColumnFilters,
         getCoreRowModel: getCoreRowModel(),
         getFilteredRowModel: getFilteredRowModel(),
